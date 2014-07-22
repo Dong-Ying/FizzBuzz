@@ -1,4 +1,4 @@
-require_relative '../app/fizz_buzz'
+require_relative '../src/fizz_buzz'
 
 describe FizzBuzz do
   it "should return fizz if the number is dividable by 3" do
