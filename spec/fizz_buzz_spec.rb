@@ -1,5 +1,3 @@
-require_relative '../src/fizz_buzz'
-
 describe FizzBuzz do
   it "should return fizz if the number is dividable by 3" do
     expect(FizzBuzz.new.getResult(9)).to eq('fizz')
